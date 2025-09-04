@@ -1,0 +1,7 @@
+name: loantap-credit-default-risk-model
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: python Prediction_Model/train.py

@@ -1,0 +1,16 @@
+# Note this is not for the complete project but rather only for MLFlow model training. Use `pyproject.toml` or 'reuirements.txt' for the complete project.
+channels:
+- conda-forge
+dependencies:
+- python=3.12.6
+- pip<=24.1
+- pip:
+  - mlflow==2.16.2
+  - cloudpickle==3.0.0
+  - numpy==1.26.4
+  - pandas==2.2.2
+  - psutil==6.0.0
+  - scikit-learn==1.5.1
+  - scipy==1.13.1
+  - xgboost==2.1.1
+name: loantap-credit-default-risk-model
